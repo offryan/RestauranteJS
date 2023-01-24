@@ -42,3 +42,7 @@ Acesse na pasta admin:
 ### Instale o MySQL:
 
 	https://dev.mysql.com/downloads/installer
+	
+### Instale o MySQL2 - Para o Nodejs
+
+	npm install --save mysql2
