@@ -17,8 +17,6 @@ Perfil de Administradores:
 
 	npm install express-generator -g
 
-	express -help
-
 	express --ejs nome_projeto
 
 Acesse o terminal na pasta do projeto
