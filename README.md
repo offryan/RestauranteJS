@@ -1,5 +1,9 @@
 ## Projeto Restaurante
 
+🔗 **Demo:** https://restaurantejs-demo.onrender.com · **Painel admin:** https://restaurantejs-demo.onrender.com/admin/login.html (qualquer e-mail e senha)
+
+> A demo está no plano gratuito do Render: o primeiro acesso depois de um tempo parado pode levar até 1 minuto. As telas são de demonstração e não gravam dados.
+
 Perfil de clientes:
 
 - Visualização do Menu;
