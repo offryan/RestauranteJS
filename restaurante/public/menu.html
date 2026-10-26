@@ -118,67 +118,122 @@
 		<div class="gtco-container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-					<h2 class="cursive-font primary-color">Pratos Populares</h2>
-					<p>Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num copo é motivis de denguis. Quem num gosta di mé, boa
-						gentis num é.</p>
+					<h2 class="cursive-font primary-color">Nosso Cardápio</h2>
+					<p>Escolha uma categoria para filtrar os pratos.</p>
 				</div>
 			</div>
 			<div class="row">
-	
-				<div class="col-lg-4 col-md-4 col-sm-6">
-					<a href="images/img_1.jpg" class="fh5co-card-item image-popup">
+				<div class="col-md-12 text-center cardapio-filtros" role="group" aria-label="Filtrar cardápio por categoria">
+					<button type="button" class="btn cardapio-filtro active" data-categoria="todos" aria-pressed="true">Todos</button>
+					<button type="button" class="btn cardapio-filtro" data-categoria="carnes" aria-pressed="false">Carnes</button>
+					<button type="button" class="btn cardapio-filtro" data-categoria="lanches" aria-pressed="false">Lanches</button>
+					<button type="button" class="btn cardapio-filtro" data-categoria="massas" aria-pressed="false">Massas</button>
+					<button type="button" class="btn cardapio-filtro" data-categoria="sobremesas" aria-pressed="false">Sobremesas</button>
+				</div>
+			</div>
+			<div class="row cardapio-lista" aria-live="polite">
+				<div class="col-lg-4 col-md-4 col-sm-6 cardapio-item" data-categoria="carnes">
+					<a href="images/img_1.jpg" class="fh5co-card-item cardapio-popup">
 						<figure>
 							<div class="overlay">
 								<i class="ti-plus"></i>
 							</div>
-							<img src="images/img_1.jpg" alt="Image" class="img-responsive">
+							<img src="images/img_1.jpg" alt="Bife de Costela com molho" class="img-responsive">
 						</figure>
 						<div class="fh5co-text">
 							<h2>Bife de Costela com molho</h2>
-							<p>Vide electram sadipscing et per. Aenean aliquam molestie leo, vitae iaculis nisl.</p>
+							<p>Costela grelhada no ponto, com molho de vinho tinto e brócolis salteados.</p>
 							<p>
 								<span class="price cursive-font">R$35,69</span>
 							</p>
 						</div>
 					</a>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-6">
-					<a href="images/img_3.jpg" class="fh5co-card-item image-popup">
+				<div class="col-lg-4 col-md-4 col-sm-6 cardapio-item" data-categoria="lanches">
+					<a href="images/img_2.jpg" class="fh5co-card-item cardapio-popup">
 						<figure>
 							<div class="overlay">
 								<i class="ti-plus"></i>
 							</div>
-							<img src="images/img_2.jpg" alt="Image" class="img-responsive">
+							<img src="images/img_2.jpg" alt="Hambúrguer com Fritas" class="img-responsive">
 						</figure>
 						<div class="fh5co-text">
 							<h2>Hambúrguer com Fritas</h2>
-							<p>Vide electram sadipscing et per. Aenean aliquam molestie leo, vitae iaculis nisl.</p>
+							<p>Blend artesanal, queijo, bacon crocante e batatas fritas da casa.</p>
 							<p>
 								<span class="price cursive-font">R$22,80</span>
 							</p>
-	
 						</div>
 					</a>
 				</div>
-	
-				<div class="col-lg-4 col-md-4 col-sm-6">
-					<a href="images/img_5.jpg" class="fh5co-card-item image-popup">
+				<div class="col-lg-4 col-md-4 col-sm-6 cardapio-item" data-categoria="lanches">
+					<a href="images/img_3.jpg" class="fh5co-card-item cardapio-popup">
 						<figure>
 							<div class="overlay">
 								<i class="ti-plus"></i>
 							</div>
-							<img src="images/img_5.jpg" alt="Image" class="img-responsive">
+							<img src="images/img_3.jpg" alt="Torrada de Salmão" class="img-responsive">
+						</figure>
+						<div class="fh5co-text">
+							<h2>Torrada de Salmão</h2>
+							<p>Pão de fermentação natural, salmão defumado, cebola roxa e rúcula.</p>
+							<p>
+								<span class="price cursive-font">R$27,50</span>
+							</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 cardapio-item" data-categoria="sobremesas">
+					<a href="images/img_4.jpg" class="fh5co-card-item cardapio-popup">
+						<figure>
+							<div class="overlay">
+								<i class="ti-plus"></i>
+							</div>
+							<img src="images/img_4.jpg" alt="Waffle com Frutas Vermelhas" class="img-responsive">
+						</figure>
+						<div class="fh5co-text">
+							<h2>Waffle com Frutas Vermelhas</h2>
+							<p>Waffle quentinho com iogurte, mirtilos, morangos e granola.</p>
+							<p>
+								<span class="price cursive-font">R$19,90</span>
+							</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 cardapio-item" data-categoria="carnes">
+					<a href="images/img_5.jpg" class="fh5co-card-item cardapio-popup">
+						<figure>
+							<div class="overlay">
+								<i class="ti-plus"></i>
+							</div>
+							<img src="images/img_5.jpg" alt="Chilli com Carne" class="img-responsive">
 						</figure>
 						<div class="fh5co-text">
 							<h2>Chilli com Carne</h2>
-							<p>Vide electram sadipscing et per. Aenean aliquam molestie leo, vitae iaculis nisl.</p>
+							<p>Carne moída, feijão vermelho e pimentões, cozidos lentamente com especiarias.</p>
 							<p>
 								<span class="price cursive-font">R$29,40</span>
 							</p>
 						</div>
 					</a>
 				</div>
-	
+				<div class="col-lg-4 col-md-4 col-sm-6 cardapio-item" data-categoria="massas">
+					<a href="images/img_6.jpg" class="fh5co-card-item cardapio-popup">
+						<figure>
+							<div class="overlay">
+								<i class="ti-plus"></i>
+							</div>
+							<img src="images/img_6.jpg" alt="Farfalle ao Pesto" class="img-responsive">
+						</figure>
+						<div class="fh5co-text">
+							<h2>Farfalle ao Pesto</h2>
+							<p>Massa ao molho pesto de manjericão com tomates-cereja e folhas frescas.</p>
+							<p>
+								<span class="price cursive-font">R$26,30</span>
+							</p>
+						</div>
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -317,6 +372,8 @@
 	
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	<!-- Filtro do cardápio por categoria -->
+	<script src="js/cardapio.js"></script>
 
 	</body>
 </html>
