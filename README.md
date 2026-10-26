@@ -1,6 +1,6 @@
 ## Projeto Restaurante
 
-🎓 Projeto desenvolvido durante o **curso de Node.js da Hcode**. O layout do site, o painel administrativo (AdminHcode) e a estrutura do banco vieram do curso e pertencem à Hcode.
+🎓 Projeto desenvolvido durante o **curso online de JavaScript da Hcode**. O layout do site, o painel administrativo (AdminHcode) e a estrutura do banco vieram do curso e pertencem à Hcode.
 
 🔗 **Demo:** https://restaurantejs-demo.onrender.com · **Painel admin:** https://restaurantejs-demo.onrender.com/admin/login.html (qualquer e-mail e senha)
 
