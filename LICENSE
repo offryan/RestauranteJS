@@ -1,23 +1,32 @@
-Copyright (c) 2023-2026 Ryan G. Santos. Todos os direitos reservados.
+Copyright (c) 2023-2026 Ryan G. Santos, sobre as partes de sua autoria.
+Todos os direitos reservados.
 
-Este repositório e todo o seu conteúdo (código-fonte, textos, imagens, layout e
-documentação) são de propriedade exclusiva do autor e estão
-protegidos pela Lei de Direitos Autorais (Lei nº 9.610/1998) e pela Lei de
-Software (Lei nº 9.609/1998).
+ORIGEM DO PROJETO
+Este projeto foi desenvolvido durante o curso de Node.js da Hcode
+(Hcode Treinamentos). O layout do site, o painel administrativo "AdminHcode",
+a estrutura do banco de dados "saboroso" e demais materiais fornecidos pelo
+curso pertencem à Hcode e aos seus respectivos autores. Esta licença NÃO
+concede nenhum direito sobre esse material: qualquer uso dele depende da
+autorização da Hcode.
+
+O QUE ESTA LICENÇA COBRE
+Apenas as partes escritas por Ryan G. Santos: o código, as alterações, as
+atualizações e a documentação feitos por ele neste repositório. Essas partes
+estão protegidas pela Lei de Direitos Autorais (Lei nº 9.610/1998) e pela Lei
+de Software (Lei nº 9.609/1998).
 
 O código está público apenas para fins de portfólio e avaliação.
 
 O QUE É PERMITIDO
   - Ver o código pelo GitHub e lê-lo para avaliar o trabalho do autor.
-  - Usar as demonstrações publicadas e os aplicativos disponibilizados
-    oficialmente pelo autor, apenas para conhecer o projeto.
+  - Usar a demonstração publicada pelo autor, apenas para conhecer o projeto.
 
 O QUE NÃO É PERMITIDO SEM AUTORIZAÇÃO POR ESCRITO DO AUTOR
-  - Copiar, reproduzir ou reaproveitar o código, no todo ou em parte.
-  - Modificar o código ou criar trabalhos derivados a partir dele.
-  - Distribuir, publicar, sublicenciar, vender ou alugar o código ou os
-    aplicativos.
-  - Usar o código ou os aplicativos para fins comerciais.
+  - Copiar, reproduzir ou reaproveitar as partes de autoria de Ryan G. Santos,
+    no todo ou em parte.
+  - Modificar essas partes ou criar trabalhos derivados a partir delas.
+  - Distribuir, publicar, sublicenciar, vender ou alugar essas partes.
+  - Usá-las para fins comerciais.
   - Apresentar este trabalho, ou partes dele, como sendo de outra pessoa,
     incluindo em portfólios, trabalhos acadêmicos ou processos seletivos.
 
@@ -26,8 +35,9 @@ Termos de Serviço do GitHub, não concede nenhum dos direitos acima: um fork
 serve apenas para visualização e não permite usar, modificar ou distribuir o
 conteúdo.
 
-Bibliotecas e componentes de terceiros usados no projeto continuam sob as
-suas próprias licenças.
+Bibliotecas e componentes de terceiros usados no projeto (como AdminLTE,
+Bootstrap, jQuery, Font Awesome e os pacotes do npm) continuam sob as suas
+próprias licenças.
 
 O CONTEÚDO É FORNECIDO "NO ESTADO EM QUE SE ENCONTRA", SEM GARANTIAS DE
 QUALQUER TIPO. O AUTOR NÃO SE RESPONSABILIZA POR DANOS DECORRENTES DO SEU USO.
