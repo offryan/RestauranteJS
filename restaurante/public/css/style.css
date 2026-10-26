@@ -1960,3 +1960,55 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* Carrossel de pratos da página inicial: fotos com a mesma altura */
+.owl-carousel-carousel .fh5co-card-item figure img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+.owl-carousel-carousel .owl-stage-outer {
+  padding: 4px 2px;
+}
+.owl-carousel-carousel .owl-nav {
+  margin-top: 10px;
+  text-align: center;
+}
+.owl-carousel-carousel .owl-nav button.owl-prev,
+.owl-carousel-carousel .owl-nav button.owl-next {
+  width: 44px;
+  height: 44px;
+  margin: 0 6px;
+  border-radius: 50%;
+  border: 2px solid #FBB448;
+  background: #fff;
+  color: #FBB448;
+  font-size: 18px;
+  line-height: 40px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+.owl-carousel-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel-carousel .owl-nav button.owl-next:hover {
+  background: #FBB448;
+  color: #fff;
+}
+.owl-carousel-carousel.owl-theme .owl-dots {
+  position: static;
+  margin-top: 14px;
+}
+.owl-carousel-carousel.owl-theme .owl-nav button i.owl-direction {
+  background: none;
+  padding: 0;
+  margin: 0;
+  color: inherit;
+}
+.owl-carousel-carousel.owl-theme .owl-dots .owl-dot span {
+  background: none;
+  border: 2px solid #FBB448;
+}
+.owl-carousel-carousel.owl-theme .owl-dots .owl-dot.active span,
+.owl-carousel-carousel.owl-theme .owl-dots .owl-dot:hover span {
+  background: #FBB448;
+}
