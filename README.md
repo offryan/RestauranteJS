@@ -44,3 +44,7 @@ Acesse na pasta admin:
 ### Instale o MySQL2 - Para o Nodejs
 
 	npm install --save mysql2
+
+## 📄 Licença
+
+© 2023-2026 Ryan G. Santos. Todos os direitos reservados. O código está público apenas para portfólio e avaliação: não é permitido copiar, modificar, distribuir ou usar comercialmente sem autorização por escrito. Veja o arquivo [LICENSE](LICENSE).
